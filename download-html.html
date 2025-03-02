@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Endothelial Dysfunction Diagram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 24px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 20px 0;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Endothelial Dysfunction Diagram</h1>
+    <button class="btn" id="downloadBtn">Download SVG</button>
+    
+    <script>
+        document.getElementById('downloadBtn').addEventListener('click', function() {
+            // SVG content (paste the entire SVG code between the backticks)
+            const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333333">3D Blood Flow Model: Endothelial Dysfunction in the Heart</text>
+  <line x1="200" y1="50" x2="600" y2="50" stroke="#333333" stroke-width="1"/>
+  
+  <!-- Normal Vessel Section -->
+  <g transform="translate(100, 130)">
+    <!-- Section Title -->
+    <text x="170" y="-15" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#006400">NORMAL CORONARY VESSEL</text>
+    
+    <!-- Vessel outline -->
+    <path d="M0,80 C0,35.82 35.82,0 80,0 L260,0 C304.18,0 340,35.82 340,80 C340,124.18 304.18,160 260,160 L80,160 C35.82,160 0,124.18 0,80 Z" fill="#f8f8f8" stroke="#333333" stroke-width="2.5"/>
+    
+    <!-- Healthy Endothelium -->
+    <path d="M10,80 C10,41.34 41.34,10 80,10 L260,10 C298.66,10 330,41.34 330,80 C330,118.66 298.66,150 260,150 L80,150 C41.34,150 10,118.66 10,80 Z" fill="none" stroke="#00A86B" stroke-width="4"/>
+    
+    <!-- Healthy endothelial cells -->
+    <g>
+      <circle cx="30" cy="80" r="6" fill="#00A86B"/>
+      <circle cx="60" cy="80" r="6" fill="#00A86B"/>
+      <circle cx="90" cy="80" r="6" fill="#00A86B"/>
+      <circle cx="120" cy="80" r="6" fill="#00A86B"/>
+      <circle cx="150" cy="80" r="6" fill="#00A86B"/>
+      <circle cx="180" cy="80" r="6" fill="#00A86B"/>
+      <circle cx="210" cy="80" r="6" fill="#00A86B"/>
+      <circle cx="240" cy="80" r="6" fill="#00A86B"/>
+      <circle cx="270" cy="80" r="6" fill="#00A86B"/>
+      <circle cx="300" cy="80" r="6" fill="#00A86B"/>
+    </g>
+    
+    <!-- Smooth laminar flow -->
+    <g>
+      <path d="M30,45 Q170,30 310,45" fill="none" stroke="#4682B4" stroke-width="2.5" stroke-opacity="0.8"/>
+      <path d="M30,65 Q170,50 310,65" fill="none" stroke="#4682B4" stroke-width="2.5" stroke-opacity="0.8"/>
+      <path d="M30,85 Q170,70 310,85" fill="none" stroke="#4682B4" stroke-width="2.5" stroke-opacity="0.8"/>
+      <path d="M30,105 Q170,90 310,105" fill="none" stroke="#4682B4" stroke-width="2.5" stroke-opacity="0.8"/>
+      <path d="M30,125 Q170,110 310,125" fill="none" stroke="#4682B4" stroke-width="2.5" stroke-opacity="0.8"/>
+      
+      <!-- Flow arrows -->
+      <polygon points="300,45 310,45 305,40" fill="#4682B4"/>
+      <polygon points="300,65 310,65 305,60" fill="#4682B4"/>
+      <polygon points="300,85 310,85 305,80" fill="#4682B4"/>
+      <polygon points="300,105 310,105 305,100" fill="#4682B4"/>
+      <polygon points="300,125 310,125 305,120" fill="#4682B4"/>
+    </g>
+    
+    <!-- NO production -->
+    <g>
+      <text x="60" y="30" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#00A86B">NO</text>
+      <text x="90" y="30" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#00A86B">PGI₂</text>
+      <path d="M60,35 L60,60" fill="none" stroke="#00A86B" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <path d="M90,35 L90,60" fill="none" stroke="#00A86B" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <polygon points="57,55 60,60 63,55" fill="#00A86B"/>
+      <polygon points="87,55 90,60 93,55" fill="#00A86B"/>
+    </g>
+    
+    <!-- Label with explanations -->
+    <rect x="0" y="170" width="340" height="60" rx="5" ry="5" fill="#f0f9f0" stroke="#006400" stroke-width="1"/>
+    <text x="170" y="190" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Normal Endothelial Function</text>
+    <text x="170" y="215" font-family="Arial" font-size="12" text-anchor="middle">Intact endothelium • Laminar blood flow • Normal NO production</text>
+  </g>
+  
+  <!-- Dysfunctional Vessel Section -->
+  <g transform="translate(100, 380)">
+    <!-- Section Title -->
+    <text x="170" y="-15" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#8B0000">DYSFUNCTIONAL CORONARY VESSEL</text>
+    
+    <!-- Vessel outline -->
+    <path d="M0,80 C0,35.82 35.82,0 80,0 L260,0 C304.18,0 340,35.82 340,80 C340,124.18 304.18,160 260,160 L80,160 C35.82,160 0,124.18 0,80 Z" fill="#f8f8f8" stroke="#333333" stroke-width="2.5"/>
+    
+    <!-- Dysfunctional Endothelium -->
+    <path d="M10,80 C10,41.34 41.34,10 80,10 L260,10 C298.66,10 330,41.34 330,80 C330,118.66 298.66,150 260,150 L80,150 C41.34,150 10,118.66 10,80 Z" fill="none" stroke="#CC0000" stroke-width="4" stroke-dasharray="6,3"/>
+    
+    <!-- Damaged endothelial cells -->
+    <g>
+      <circle cx="30" cy="82" r="5" fill="#CC0000"/>
+      <circle cx="60" cy="78" r="4" fill="#CC0000"/>
+      <circle cx="90" cy="83" r="5" fill="#CC0000"/>
+      <circle cx="120" cy="77" r="4" fill="#CC0000"/>
+      <circle cx="150" cy="84" r="5" fill="#CC0000"/>
+      <circle cx="180" cy="78" r="4" fill="#CC0000"/>
+      <circle cx="210" cy="85" r="5" fill="#CC0000"/>
+      <circle cx="240" cy="76" r="4" fill="#CC0000"/>
+      <circle cx="270" cy="84" r="5" fill="#CC0000"/>
+      <circle cx="300" cy="79" r="4" fill="#CC0000"/>
+    </g>
+    
+    <!-- Adhesion molecules -->
+    <g>
+      <rect x="75" y="55" width="50" height="16" rx="3" ry="3" fill="#ffeeee" stroke="#CC0000" stroke-width="1"/>
+      <text x="100" y="67" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="#CC0000">VCAM-1</text>
+      
+      <rect x="175" y="55" width="50" height="16" rx="3" ry="3" fill="#ffeeee" stroke="#CC0000" stroke-width="1"/>
+      <text x="200" y="67" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="#CC0000">ICAM-1</text>
+      
+      <rect x="255" y="55" width="60" height="16" rx="3" ry="3" fill="#ffeeee" stroke="#CC0000" stroke-width="1"/>
+      <text x="285" y="67" font-family
