@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<svg width="900" height="650" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Background gradient representing blood vessel interior -->
+ <defs>
+  <linearGradient id="bloodVesselGradient" x1="0%" x2="0%" y1="0%" y2="100%">
+   <stop offset="0%" stop-color="#7b0000"/>
+   <stop offset="100%" stop-color="#e00000"/>
+  </linearGradient>
+  <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" id="valveGradient" r="50%">
+   <stop offset="0%" stop-color="#ff9d9d"/>
+   <stop offset="100%" stop-color="#b30000"/>
+  </radialGradient>
+  <linearGradient id="flowGradient" x1="0%" x2="100%" y1="0%" y2="0%">
+   <stop offset="0%" stop-color="#ff5e5e" stop-opacity="0.2"/>
+   <stop offset="100%" stop-color="#ff0000" stop-opacity="0.6"/>
+  </linearGradient>
+  <filter height="140%" id="glow" width="140%" x="-20%" y="-20%">
+   <feGaussianBlur stdDeviation="5"/>
+  </filter>
+ </defs>
+ <!-- Blood vessel interior -->
+ <!-- Blood flow streamlines -->
+ <!-- Cardiac valve structure (simplified) -->
+ <!-- Valve irregularity/calcification -->
+ <!-- Biomarkers floating in the bloodstream -->
+ <!-- Nanorobots -->
+ <!-- Nanorobot 1 - Advanced sensing -->
+ <!-- Nanorobot 2 - Flow analysis -->
+ <!-- Nanorobot 3 - Valve inspection -->
+ <!-- Blood cells -->
+ <!-- White blood cells -->
+ <!-- 3D simulation indicators -->
+ <!-- Data analysis panel -->
+ <!-- Hemodynamic analysis panel -->
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="url(#bloodVesselGradient)" height="574.999988" id="svg_1" transform="matrix(1 0 0 1 0 0)" width="731.000004" x="82.999979" y="-2"/>
+  <g id="bloodFlowPatterns" transform="matrix(1 0 0 1 0 0)">
+   <path d="m13,100c200,-10 400,30 600,-20c200,-30 300,40 300,40" fill="none" id="svg_2" opacity="0.5" stroke="url(#flowGradient)" stroke-width="20"/>
+   <path d="m13,200c150,-20 300,30 450,-10c150,-20 300,30 450,10" fill="none" id="svg_3" opacity="0.4" stroke="url(#flowGradient)" stroke-width="25"/>
+   <path d="m13,320c200,-20 400,40 600,-10c200,-20 300,40 300,40" fill="none" id="svg_4" opacity="0.5" stroke="url(#flowGradient)" stroke-width="30"/>
+   <path d="m13,450c150,-20 300,30 450,-10c150,-30 300,20 450,-10" fill="none" id="svg_5" opacity="0.6" stroke="url(#flowGradient)" stroke-width="25"/>
+   <path d="m13,550c200,-20 400,30 600,-10c200,-30 300,30 300,30" fill="none" id="svg_6" opacity="0.4" stroke="url(#flowGradient)" stroke-width="20"/>
+  </g>
+  <g id="cardiacValve" transform="translate(600, 320)">
+   <ellipse fill="url(#valveGradient)" id="svg_7" rx="150" ry="120" stroke="#800000" stroke-width="5"/>
+   <path d="m-60,-30c20,-50 100,-50 120,0" fill="none" id="svg_8" stroke="#ff9d9d" stroke-width="8"/>
+   <path d="m-70,30c20,50 120,50 140,0" fill="none" id="svg_9" stroke="#ff9d9d" stroke-width="8"/>
+   <path d="m0,-60l0,120" fill="none" id="svg_10" stroke="#ff9d9d" stroke-width="8"/>
+   <text fill="#ffffff" font-family="Arial" font-size="16" font-weight="bold" id="svg_11" text-anchor="middle" y="150">Cardiac Valve</text>
+  </g>
+  <g id="valveIrregularity" transform="translate(630, 290)">
+   <circle cx="0" cy="0" fill="#ffcc00" id="svg_12" opacity="0.8" r="15" stroke="#b30000" stroke-width="2"/>
+   <text fill="#ffffff" font-family="Arial" font-size="12" id="svg_13" style="font-family: Arial, Bangla680, sans-serif;" x="40" y="0">Calcification</text>
+  </g>
+  <g id="biomarkers">
+   <!-- BNP -->
+   <g id="svg_14" transform="matrix(1 0 0 1 0 0)">
+    <circle cx="229.371941" cy="121.140866" fill="#ffcc00" id="svg_15" opacity="0.8" r="21.54554"/>
+    <text fill="#000000" font-family="Arial" font-size="10" id="svg_16" text-anchor="middle" transform="matrix(2.00381 0 0 1.92712 -207.8 -93.5)" x="218.170938" y="115.37925">BNP</text>
+   </g>
+   <!-- Troponin -->
+   <g id="svg_17" transform="matrix(1 0 0 1 0 0)">
+    <circle cx="366.371933" cy="184.640867" fill="#66ccff" id="svg_18" opacity="0.8" r="23.037954"/>
+    <text fill="#000000" font-family="Arial" font-size="9" id="svg_19" text-anchor="middle" transform="matrix(2.9038 0 0 2.47272 -643.221 -228.475)" x="347.680543" y="171.068967">cTn</text>
+   </g>
+   <!-- MMP-9 -->
+   <g id="svg_20">
+    <circle cx="163.371948" cy="251.640861" fill="#cc99ff" id="svg_21" opacity="0.8" r="0.495001"/>
+    <text fill="#000000" font-family="Arial" font-size="9" id="svg_22" text-anchor="middle" transform="matrix(0.038077 0 0 1.90303 156.582 -189.94)" x="178.323258" y="236.040232">MMP-9</text>
+   </g>
+   <!-- IL-6 -->
+   <g id="svg_23">
+    <circle cx="398.871902" cy="355.140865" fill="#99ff99" id="svg_24" opacity="0.8" r="22.534163"/>
+    <text fill="#000000" font-family="Arial" font-size="8" id="svg_25" text-anchor="middle" transform="matrix(3.05935 0 0 2.68739 -878.15 -517.875)" x="417.415895" y="328.856324">IL-6</text>
+   </g>
+   <!-- TNF-α -->
+   <g id="svg_26">
+    <circle cx="292.371877" cy="396.640865" fill="#ff9966" id="svg_27" opacity="0.8" r="26.04174" transform="matrix(1 0 0 1 0 0) rotate(0.652639 292.372 396.641)"/>
+    <text fill="#000000" font-family="Arial" font-size="8" id="svg_28" text-anchor="middle" transform="matrix(2.04638 0 0 2.10093 -277.156 -399.512)" x="278.798547" y="382.021331">TNF-α</text>
+   </g>
+  </g>
+  <g id="nanorobot1">
+   <ellipse cx="150" cy="200" fill="#0066cc" id="svg_29" rx="30" ry="15" stroke="#003366" stroke-width="2"/>
+   <ellipse cx="132" cy="200" fill="#0099ff" id="svg_30" rx="10" ry="15" stroke="#003366"/>
+   <ellipse cx="168" cy="200" fill="#0099ff" id="svg_31" rx="10" ry="15" stroke="#003366"/>
+   <ellipse cx="150" cy="200" fill="#ffff00" filter="url(#glow)" id="svg_32" rx="5" ry="5"/>
+   <!-- Scanning beam -->
+   <path d="m180,200c90,-10 150,60 240,50" fill="none" id="svg_33" opacity="0.7" stroke="#00ffff" stroke-dasharray="5,3" stroke-width="2"/>
+   <text fill="#ffffff" font-family="Arial" font-size="10" id="svg_34" x="210" y="240">Scanning biomarkers</text>
+   <!-- Data display -->
+   <g id="svg_35">
+    <rect fill="#003366" height="28.999999" id="svg_36" opacity="0.8" rx="5" ry="5" stroke="#0099ff" width="61.683446" x="119.158275" y="151.000001"/>
+    <text fill="#ffffff" font-family="Arial" font-size="7" id="svg_37" text-anchor="middle" transform="matrix(1.23367 0 0 1.16 -20.8719 -31.2)" x="138.507117" y="167.068965">BNP: 425 pg/mL</text>
+    <text fill="#ffffff" font-family="Arial" font-size="7" id="svg_38" text-anchor="middle" transform="matrix(1.23367 0 0 1.16 -20.8719 -31.2)" x="138.507117" y="177.068965">MMP-9: +</text>
+   </g>
+  </g>
+  <g id="nanorobot2" transform="translate(350, 280)">
+   <ellipse cx="0" cy="0" fill="#339933" id="svg_39" rx="25" ry="12" stroke="#006600" stroke-width="2"/>
+   <rect fill="#00cc00" height="16" id="svg_40" rx="3" ry="3" stroke="#006600" width="30" x="-15" y="-8"/>
+   <ellipse cx="0" cy="0" fill="#ffff00" filter="url(#glow)" id="svg_41" rx="4" ry="4"/>
+   <!-- Flow analysis visualization -->
+   <path d="m25,0c35,-20 55,20 85,0" fill="none" id="svg_42" opacity="0.7" stroke="#99ff99" stroke-width="2"/>
+   <path d="m25,5c35,10 55,-10 85,0" fill="none" id="svg_43" opacity="0.7" stroke="#99ff99" stroke-width="2"/>
+   <path d="m25,-5c35,-20 55,20 85,0" fill="none" id="svg_44" opacity="0.7" stroke="#99ff99" stroke-width="2"/>
+   <text fill="#ffffff" font-family="Arial" font-size="10" id="svg_45" style="font-family: Arial, Bangla680, sans-serif;" x="65" y="25">Flow analysis</text>
+   <!-- Data display -->
+   <g id="svg_46" transform="translate(-10, -30)">
+    <rect fill="#006600" height="20" id="svg_47" opacity="0.8" rx="5" ry="5" stroke="#00cc00" width="60" x="0" y="0"/>
+    <text fill="#ffffff" font-family="Arial" font-size="7" id="svg_48" style="font-family: Arial, Bangla680, sans-serif;" text-anchor="middle" x="30" y="12">Turbulence: High</text>
+   </g>
+  </g>
+  <g id="nanorobot3" transform="translate(500, 350)">
+   <ellipse cx="0" cy="0" fill="#990099" id="svg_49" rx="28" ry="14" stroke="#660066" stroke-width="2"/>
+   <rect fill="#cc00cc" height="14" id="svg_50" rx="5" ry="5" stroke="#660066" width="40" x="-20" y="-7"/>
+   <ellipse cx="0" cy="0" fill="#ffff00" filter="url(#glow)" id="svg_51" rx="4" ry="4"/>
+   <!-- Inspection beam -->
+   <path d="m20,0l50,0" fill="none" id="svg_52" opacity="0.8" stroke="#ff66ff" stroke-dasharray="2,2" stroke-width="3"/>
+   <text fill="#ffffff" font-family="Arial" font-size="10" id="svg_53" style="font-family: Arial, Bangla680, sans-serif;" x="45" y="-10">Valve inspection</text>
+   <!-- Data display -->
+   <g id="svg_54" transform="translate(-55, -40)">
+    <rect fill="#660066" height="30" id="svg_55" opacity="0.8" rx="5" ry="5" stroke="#cc00cc" width="80" x="0" y="0"/>
+    <text fill="#ffffff" font-family="Arial" font-size="7" id="svg_56" style="font-family: Arial, Bangla680, sans-serif;" text-anchor="middle" x="40" y="12">Endothelial integrity: 68%</text>
+    <text fill="#ffffff" font-family="Arial" font-size="7" id="svg_57" style="font-family: Arial, Bangla680, sans-serif;" text-anchor="middle" x="40" y="22">Calcification detected</text>
+   </g>
+  </g>
+  <g id="bloodCells">
+   <ellipse cx="100" cy="100" fill="#ff6666" id="svg_58" opacity="0.6" rx="18" ry="8" transform="rotate(30 100 100)"/>
+   <ellipse cx="220" cy="340" fill="#ff6666" id="svg_59" opacity="0.6" rx="17" ry="8" transform="rotate(-20 220 340)"/>
+   <ellipse cx="400" cy="120" fill="#ff6666" id="svg_60" opacity="0.6" rx="15" ry="7" transform="rotate(15 400 120)"/>
+   <ellipse cx="380" cy="450" fill="#ff6666" id="svg_61" opacity="0.6" rx="19" ry="8" transform="rotate(-10 380 450)"/>
+   <ellipse cx="520" cy="200" fill="#ff6666" id="svg_62" opacity="0.6" rx="16" ry="7" transform="rotate(25 520 200)"/>
+   <ellipse cx="150" cy="500" fill="#ff6666" id="svg_63" opacity="0.6" rx="17" ry="8" transform="rotate(-15 150 500)"/>
+   <ellipse cx="450" cy="580" fill="#ff6666" id="svg_64" opacity="0.6" rx="18" ry="8" transform="rotate(10 450 580)"/>
+  </g>
+  <circle cx="300" cy="200" fill="#ffffff" id="svg_65" opacity="0.7" r="12"/>
+  <circle cx="180" cy="390" fill="#ffffff" id="svg_66" opacity="0.7" r="14"/>
+  <circle cx="480" cy="490" fill="#ffffff" id="svg_67" opacity="0.7" r="13"/>
+  <g id="simulationElements" transform="matrix(1 0 0 1 0 0)">
+   <text fill="#f7f2f2" font-family="Arial" font-size="18" font-style="normal" font-weight="bold" id="svg_68" stroke="#000000" x="196" y="32">3D SIMULATION: NANOROBOT CARDIAC VALVE ASSESSMENT</text>
+   <rect fill="#000000" height="50" id="svg_69" opacity="0.6" rx="5" ry="5" transform="matrix(1 0 0 1 0 0)" width="400" x="258" y="515"/>
+   <text fill="#ffffff" font-family="Arial" font-size="12" id="svg_70" transform="matrix(1 0 0 1 0 0)" x="300" y="534">Biomarker Detection: BNP, Troponin, MMP-9, IL-6, TNF-α</text>
+   <text fill="#ffffff" font-family="Arial" font-size="12" id="svg_71" x="273" y="552">Hemodynamic Analysis: Flow patterns, Turbulence, Shear stress</text>
+   <!-- Grid lines to show 3D perspective -->
+   <g id="svg_72" opacity="0.15" transform="matrix(1 0 0 1 0 0)">
+    <line id="svg_73" stroke="#ffffff" x1="0" x2="900" y1="101" y2="101"/>
+    <line id="svg_74" stroke="#ffffff" x1="0" x2="900" y1="201" y2="201"/>
+    <line id="svg_75" stroke="#ffffff" x1="0" x2="900" y1="301" y2="301"/>
+    <line id="svg_76" stroke="#ffffff" x1="0" x2="900" y1="401" y2="401"/>
+    <line id="svg_77" stroke="#ffffff" x1="0" x2="900" y1="501" y2="501"/>
+    <line id="svg_78" stroke="#ffffff" x1="100" x2="100" y1="1" y2="651"/>
+    <line id="svg_79" stroke="#ffffff" x1="300" x2="300" y1="1" y2="651"/>
+    <line id="svg_80" stroke="#ffffff" x1="500" x2="500" y1="1" y2="651"/>
+    <line id="svg_81" stroke="#ffffff" x1="700" x2="700" y1="1" y2="651"/>
+   </g>
+  </g>
+  <g id="dataPanel" transform="matrix(1 0 0 1 0 0)">
+   <rect fill="#000033" height="104.000002" id="svg_82" opacity="0.7" rx="10" ry="10" stroke="#0099ff" width="158.787429" x="474.106274" y="63.999998"/>
+   <text fill="#ffffff" font-family="Arial" font-size="11" font-weight="bold" id="svg_83" text-anchor="middle" transform="matrix(0.736059 0 0 0.8 164.09 32.8)" x="529.63134" y="59">REAL-TIME BIOMARKER ANALYSIS</text>
+   <line id="svg_84" stroke="#0099ff" x1="482.927798" x2="624.072179" y1="87.999999" y2="87.999999"/>
+   <text fill="#ffffff" font-family="Arial" font-size="10" id="svg_85" transform="matrix(0.882152 0 0 0.8 61.8264 33.8)" x="487.356721" y="87.75">BNP: 425 pg/mL (↑)</text>
+   <rect fill="#003366" height="8" id="svg_86" rx="3" ry="3" width="44.107619" x="579.96456" y="97.599999"/>
+   <rect fill="#ff0000" height="8" id="svg_87" rx="3" ry="3" width="37.0504" x="579.96456" y="97.599999"/>
+   <text fill="#ffffff" font-family="Arial" font-size="10" id="svg_88" transform="matrix(0.882152 0 0 0.8 61.8264 33.8)" x="487.356721" y="107.75">Troponin: 0.08 ng/mL (↑)</text>
+   <rect fill="#003366" height="8" id="svg_89" rx="3" ry="3" width="44.107619" x="579.96456" y="113.599999"/>
+   <rect fill="#ffcc00" height="8" id="svg_90" rx="3" ry="3" width="22.05381" x="579.96456" y="113.599999"/>
+   <text fill="#ffffff" font-family="Arial" font-size="10" id="svg_91" transform="matrix(0.882152 0 0 0.8 61.8264 33.8)" x="487.356721" y="127.75">MMP-9: 180 ng/mL (↑)</text>
+   <rect fill="#003366" height="8" id="svg_92" rx="3" ry="3" width="44.107619" x="579.96456" y="129.599999"/>
+   <rect fill="#ff6600" height="8" id="svg_93" rx="3" ry="3" width="30.875333" x="579.96456" y="129.599999"/>
+   <text fill="#ffffff" font-family="Arial" font-size="10" id="svg_94" transform="matrix(0.882152 0 0 0.8 61.8264 33.8)" x="487.356721" y="147.75">IL-6/TNF-α: Elevated</text>
+   <rect fill="#003366" height="8" id="svg_95" rx="3" ry="3" width="44.107619" x="579.96456" y="145.6"/>
+   <rect fill="#ff9900" height="8" id="svg_96" rx="3" ry="3" width="26.464571" x="579.96456" y="145.6"/>
+  </g>
+  <g id="flowPanel" transform="matrix(1 0 0 1 0 0)">
+   <rect fill="#000033" height="103" id="svg_97" opacity="0.7" rx="10" ry="10" stroke="#00cc66" width="148.999996" x="640.999997" y="64"/>
+   <text fill="#ffffff" font-family="Arial" font-size="11" font-weight="bold" id="svg_98" text-anchor="middle" transform="matrix(0.827778 0 0 0.936364 118.04 11.0091)" x="721.763355" y="76.592233">VALVE HEMODYNAMICS</text>
+   <line id="svg_99" stroke="#00cc66" x1="649.277775" x2="781.722215" y1="92.090909" y2="92.090909"/>
+   <text fill="#ffffff" font-family="Arial" font-size="10" id="svg_100" transform="matrix(0.827778 0 0 0.936364 118.04 11.0091)" x="651.763355" y="106.592233">Flow Turbulence: High</text>
+   <rect fill="#003366" height="9.363636" id="svg_101" rx="3" ry="3" width="41.388888" x="740.333328" y="103.327273"/>
+   <rect fill="#ff0000" height="9.363636" id="svg_102" rx="3" ry="3" width="33.11111" x="740.333328" y="103.327273"/>
+   <text fill="#ffffff" font-family="Arial" font-size="10" id="svg_103" transform="matrix(0.827778 0 0 0.936364 118.04 11.0091)" x="651.763355" y="126.592233">Shear Stress: 42 dyne/cm²</text>
+   <rect fill="#003366" height="9.363636" id="svg_104" rx="3" ry="3" width="41.388888" x="740.333328" y="122.054545"/>
+   <rect fill="#ff3300" height="9.363636" id="svg_105" rx="3" ry="3" width="31.455555" x="740.333328" y="122.054545"/>
+   <text fill="#ffffff" font-family="Arial" font-size="10" id="svg_106" transform="matrix(0.827778 0 0 0.936364 118.04 11.0091)" x="651.763355" y="146.592233">Endothelial Integrity: 68%</text>
+   <rect fill="#003366" height="9.363636" id="svg_107" rx="3" ry="3" width="41.388888" x="740.333328" y="140.781818"/>
+   <rect fill="#ffcc00" height="9.363636" id="svg_108" rx="3" ry="3" width="28.144444" x="740.333328" y="140.781818"/>
+  </g>
+ </g>
+</svg>
