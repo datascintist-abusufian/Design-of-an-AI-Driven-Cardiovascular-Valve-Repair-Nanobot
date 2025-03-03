@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Background and grid -->
+ <!-- Grid lines -->
+ <!-- Axes -->
+ <!-- Valve region vertical lines -->
+ <!-- Parabolic vessel flow (left of valve) -->
+ <!-- Turbulent flow in valve region -->
+ <!-- Regurgitant flow (negative flow) -->
+ <!-- Post-valve flow -->
+ <!-- Arrow for flow direction in vessel -->
+ <!-- Arrow for turbulent flow -->
+ <!-- Arrow for regurgitant flow - points left -->
+ <!-- Arrow for post-valve flow -->
+ <!-- Labels for axes -->
+ <!-- Tick marks for x-axis -->
+ <!-- Tick marks for y-axis -->
+ <!-- Section labels -->
+ <!-- Region labels -->
+ <!-- Marker for nanobots -->
+ <!-- Title -->
+ <!-- Mathematical Formulas - Highlighted Boxes -->
+ <!-- Vessel Region Math -->
+ <!-- Valve Region Math -->
+ <!-- Post-Valve Region Math -->
+ <!-- Regurgitant Flow Math -->
+ <!-- Flow Parameters -->
+ <!-- Valve mechanical representation inset -->
+ <!-- Reference lines connecting formulas to regions -->
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#ffffff" height="743.000025" id="svg_1" width="875" x="-3" y="-2"/>
+  <g id="svg_2" stroke="#dddddd" stroke-dasharray="5,5" transform="matrix(1 0 0 1 0 0)">
+   <!-- Horizontal grid lines -->
+   <line id="svg_3" x1="100" x2="790.999985" y1="50" y2="50"/>
+   <line id="svg_4" x1="100" x2="790.999985" y1="100" y2="100"/>
+   <line id="svg_5" x1="100" x2="790.999985" y1="150" y2="150"/>
+   <line id="svg_6" x1="100" x2="790.999985" y1="200" y2="200"/>
+   <line id="svg_7" x1="100" x2="790.999985" y1="250" y2="250"/>
+   <line id="svg_8" x1="100" x2="790.999985" y1="300" y2="300"/>
+   <line id="svg_9" x1="100" x2="790.999985" y1="350" y2="350"/>
+   <line id="svg_10" x1="100" x2="790.999985" y1="400" y2="400"/>
+   <!-- Vertical grid lines -->
+   <line id="svg_11" x1="100" x2="100" y1="50" y2="400"/>
+   <line id="svg_12" x1="215.166664" x2="215.166664" y1="50" y2="400"/>
+   <line id="svg_13" x1="330.333328" x2="330.333328" y1="50" y2="400"/>
+   <line id="svg_14" x1="445.499992" x2="445.499992" y1="50" y2="400"/>
+   <line id="svg_15" x1="560.666656" x2="560.666656" y1="50" y2="400"/>
+   <line id="svg_16" x1="675.833321" x2="675.833321" y1="50" y2="400"/>
+   <line id="svg_17" x1="790.999985" x2="790.999985" y1="50" y2="400"/>
+  </g>
+  <line id="svg_18" stroke="#000000" stroke-width="2" x1="100" x2="700" y1="400" y2="400"/>
+  <line id="svg_19" stroke="#000000" stroke-width="2" x1="100" x2="100" y1="50" y2="400"/>
+  <line id="svg_20" stroke="#000000" stroke-dasharray="5,5" stroke-width="2" x1="280" x2="280" y1="50" y2="400"/>
+  <line id="svg_21" stroke="#000000" stroke-dasharray="5,5" stroke-width="2" x1="480" x2="480" y1="50" y2="400"/>
+  <path d="m100,399q90,-250 180,0" fill="none" id="svg_22" stroke="#0066cc" stroke-width="3"/>
+  <path d="m280,340c20,-40 30,10 40,-10c10,-20 20,40 30,10c10,-30 20,30 30,-10c10,-40 20,40 30,10c10,-30 20,20 30,-10c10,-30 20,20 40,10" fill="none" id="svg_23" stroke="#cc0000" stroke-dasharray="5,3" stroke-width="3"/>
+  <path d="m347.014197,400.96663c20.281678,40.745472 40.563356,30.559104 60.845034,40.745472c20.281678,10.186368 40.563356,0 70.985873,-20.372736" fill="none" id="svg_24" stroke="#990099" stroke-dasharray="3,2" stroke-width="3" transform="rotate(-2.07195 412.93 423.337)"/>
+  <path d="m480,340c20,-20 40,10 60,-10c20,-20 40,10 60,-10c20,-20 40,10 60,-10c20,-20 40,10 40,10" fill="none" id="svg_25" stroke="#009900" stroke-width="3"/>
+  <polygon fill="#0066cc" id="svg_26" points="200,220 220,220 210,200"/>
+  <polygon fill="#cc0000" id="svg_27" points="380,320 400,320 390,300"/>
+  <polygon fill="#990099" id="svg_28" points="400,440 380,440 390,460"/>
+  <polygon fill="#009900" id="svg_29" points="574,319 594,319 584,299 " transform="matrix(1 0 0 1 0 0)"/>
+  <text fill="black" font-family="Arial" font-size="16" id="svg_30" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="578" y="428">Radial Position (r)</text>
+  <text font-family="Arial" font-size="16" id="svg_31" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" transform="rotate(-90 60 225)" x="60" y="225">Velocity (w)</text>
+  <line id="svg_32" stroke="#000000" stroke-width="2" x1="100" x2="100" y1="400" y2="410"/>
+  <text font-family="Arial" font-size="12" id="svg_33" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="100" y="425">0</text>
+  <line id="svg_34" stroke="#000000" stroke-width="2" x1="280" x2="280" y1="400" y2="410"/>
+  <text font-family="Arial" font-size="12" id="svg_35" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="280" y="425">0.3</text>
+  <line id="svg_36" stroke="#000000" stroke-width="2" x1="480" x2="480" y1="400" y2="410"/>
+  <text fill="black" font-family="Arial" font-size="12" id="svg_37" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="480" y="425">0.7</text>
+  <line id="svg_38" stroke="#000000" stroke-width="2" x1="700" x2="700" y1="400" y2="410"/>
+  <text font-family="Arial" font-size="12" id="svg_39" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="700" y="425">1.0</text>
+  <line id="svg_40" stroke="#000000" stroke-width="2" x1="90" x2="100" y1="400" y2="400"/>
+  <text font-family="Arial" font-size="12" id="svg_41" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="end" x="85" y="405">0</text>
+  <line id="svg_42" stroke="#000000" stroke-width="2" x1="90" x2="100" y1="300" y2="300"/>
+  <text font-family="Arial" font-size="12" id="svg_43" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="end" x="85" y="305">1.0</text>
+  <line id="svg_44" stroke="#000000" stroke-width="2" x1="90" x2="100" y1="200" y2="200"/>
+  <text font-family="Arial" font-size="12" id="svg_45" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="end" x="85" y="205">2.0</text>
+  <line id="svg_46" stroke="#000000" stroke-width="2" x1="90" x2="100" y1="100" y2="100"/>
+  <text font-family="Arial" font-size="12" id="svg_47" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="end" x="85" y="105">3.0</text>
+  <line id="svg_48" stroke="#000000" stroke-width="2" x1="90" x2="100" y1="50" y2="50"/>
+  <text font-family="Arial" font-size="12" id="svg_49" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="end" x="85" y="55">3.5</text>
+  <text fill="#0066cc" font-family="Arial" font-size="14" id="svg_50" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="190" y="100">Laminar Flow in Vessel</text>
+  <text fill="#cc0000" font-family="Arial" font-size="14" id="svg_51" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="380" y="150">Turbulent Jet in Stenotic Valve</text>
+  <text fill="#990099" font-family="Arial" font-size="14" id="svg_52" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="308" y="462">Regurgitant Backflow</text>
+  <text fill="#009900" font-family="Arial" font-size="14" id="svg_53" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="600" y="280">Post-Valve Flow</text>
+  <text font-family="Arial" font-size="14" id="svg_54" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="190" y="70">Vessel Region</text>
+  <text font-family="Arial" font-size="14" id="svg_55" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="380" y="70">Valve Region</text>
+  <text fill="black" font-family="Arial" font-size="14" id="svg_56" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="601" y="69">Post-Valve Region</text>
+  <circle cx="200" cy="250" fill="#000000" id="svg_57" r="8" transform="matrix(1 0 0 1 0 0)"/>
+  <text font-family="Arial" font-size="12" id="svg_58" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="200" y="235">Nanobot 1</text>
+  <circle cx="380" cy="330" fill="#000000" id="svg_59" r="8"/>
+  <text fill="black" font-family="Arial" font-size="12" id="svg_60" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="397" y="292">Nanobot 2</text>
+  <circle cx="608" cy="315" fill="#000000" id="svg_61" r="8" transform="matrix(1 0 0 1 0 0)"/>
+  <text fill="black" font-family="Arial" font-size="12" id="svg_62" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="591" y="298">Nanobot 3</text>
+  <text fill="black" font-family="Arial" font-size="20" font-weight="bold" id="svg_63" text-anchor="middle" x="436" y="30">Blood Flow in Vessels vs. Valves: Mathematical Model</text>
+  <rect fill="#e6f2ff" height="100" id="svg_64" rx="10" ry="10" stroke="#0066cc" stroke-width="2" transform="matrix(1 0 0 1 0 0)" width="268" x="102" y="480"/>
+  <text fill="#0066cc" font-family="Arial" font-size="14" font-weight="bold" id="svg_65" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="240" y="500">VESSEL REGION (r &lt; 0.3)</text>
+  <text font-family="Arial" font-size="14" id="svg_66" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="240" y="525">Parabolic Flow (Poiseuille):</text>
+  <text font-family="Arial" font-size="16" font-weight="bold" id="svg_67" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="240" y="550">w = 2ν[1-(r/(d/2))²]</text>
+  <text font-family="Arial" font-size="12" id="svg_68" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="240" y="570">Reynolds Number: Re &lt; 2300 (Laminar)</text>
+  <rect fill="#ffebeb" height="100" id="svg_69" rx="10" ry="10" stroke="#cc0000" stroke-width="2" width="260" x="380" y="480"/>
+  <text fill="#cc0000" font-family="Arial" font-size="14" font-weight="bold" id="svg_70" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="510" y="500">VALVE REGION (0.3 ≤ r ≤ 0.7)</text>
+  <text font-family="Arial" font-size="14" id="svg_71" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="510" y="525">Turbulent Oscillation:</text>
+  <text font-family="Arial" font-size="16" font-weight="bold" id="svg_72" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="510" y="550">w = 0.5 · sin(10r) + 0.5</text>
+  <text font-family="Arial" font-size="12" id="svg_73" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="510" y="570">Reynolds Number: Re &gt; 4000 (Turbulent)</text>
+  <rect fill="#ebffeb" height="127.999997" id="svg_74" rx="10" ry="10" stroke="#009900" stroke-width="2" width="269.000003" x="100.999997" y="585"/>
+  <text fill="#009900" font-family="Arial" font-size="14" font-weight="bold" id="svg_75" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="240" y="605">POST-VALVE REGION (r &gt; 0.7)</text>
+  <text font-family="Arial" font-size="14" id="svg_76" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="240" y="630">Disturbed Recovery Flow:</text>
+  <text fill="black" font-family="Arial" font-size="16" font-weight="bold" id="svg_77" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="241" y="655">w = 0.3 · sin(5r) + 0.8</text>
+  <text font-family="Arial" font-size="12" id="svg_78" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="240" y="675">Transitional Flow Pattern</text>
+  <rect fill="#f9ebff" height="128.999996" id="svg_79" rx="10" ry="10" stroke="#990099" stroke-width="2" transform="matrix(1 0 0 1 0 0)" width="260" x="380" y="585"/>
+  <text fill="#990099" font-family="Arial" font-size="14" font-weight="bold" id="svg_80" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="510" y="605">REGURGITANT BACKFLOW</text>
+  <text fill="black" font-family="Arial" font-size="14" id="svg_81" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="510" y="631">Reverse Flow Component:</text>
+  <text fill="black" font-family="Arial" font-size="16" font-weight="bold" id="svg_82" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="510" y="655">w = -0.3 · sin(8r) - 0.2</text>
+  <text fill="black" font-family="Arial" font-size="12" id="svg_83" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="510" y="675">Negative velocity indicates reversal</text>
+  <rect fill="#f9f9f9" height="233.999991" id="svg_84" rx="10" ry="10" stroke="#333333" stroke-width="1.5" transform="matrix(1 0 0 1 0 0)" width="142" x="650" y="480"/>
+  <text font-family="Arial" font-size="14" font-weight="bold" id="svg_85" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="middle" x="720" y="500">PARAMETERS</text>
+  <line id="svg_86" stroke="#333333" x1="660" x2="780" y1="510" y2="510"/>
+  <text font-family="Arial" font-size="12" id="svg_87" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="start" x="660" y="530">ν = kinematic viscosity</text>
+  <text font-family="Arial" font-size="12" id="svg_88" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="start" x="660" y="550">r = radial position</text>
+  <text font-family="Arial" font-size="12" id="svg_89" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="start" x="660" y="570">d = vessel diameter</text>
+  <text font-family="Arial" font-size="12" id="svg_90" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="start" x="660" y="590">w = flow velocity</text>
+  <text fill="black" font-family="Arial" font-size="12" id="svg_91" text-anchor="start" transform="matrix(1 0 0 1 0 0)" x="660" y="610">Re = Reynolds number</text>
+  <line id="svg_92" stroke="#333333" x1="660" x2="780" y1="620" y2="620"/>
+  <text fill="black" font-family="Arial" font-size="12" id="svg_93" text-anchor="start" transform="matrix(1 0 0 1 0 0)" x="660" y="640">Re = ρvd/μ</text>
+  <text font-family="Arial" font-size="12" id="svg_94" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="start" x="660" y="660">where:</text>
+  <text fill="black" font-family="Arial" font-size="12" id="svg_95" text-anchor="start" transform="matrix(1 0 0 1 0 0)" x="670" y="675">ρ = fluid density</text>
+  <text font-family="Arial" font-size="12" id="svg_96" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="start" x="670" y="690">v = velocity</text>
+  <text font-family="Arial" font-size="12" id="svg_97" style="font-family: Arial, Bangla1087, sans-serif;" text-anchor="start" x="670" y="705">μ = dynamic viscosity</text>
+  <g id="svg_98" transform="matrix(1 0 0 1 0 0) translate(650 150) scale(0.8 0.8)">
+   <!-- Border for inset -->
+   <rect fill="#f9f9f9" height="214.000009" id="svg_99" stroke="#666666" width="167.000002" x="10.499998" y="-65.750001"/>
+   <text font-family="Arial" font-size="12" id="svg_100" text-anchor="middle" transform="matrix(1.11333 0 0 1.42667 -14.55 0.233335)" x="97.5" y="-26.25">Valve Cross-Section</text>
+   <!-- Vessel walls -->
+   <line id="svg_101" stroke="#0066cc" stroke-width="2" x1="21.633332" x2="166.366667" y1="5.583336" y2="5.583336"/>
+   <line id="svg_102" stroke="#0066cc" stroke-width="2" x1="21.633332" x2="166.366667" y1="76.916672" y2="76.916672"/>
+   <!-- Valve leaflets -->
+   <path d="m77.299999,5.583336q16.7,42.800002 33.4,0" fill="none" id="svg_103" stroke="#cc0000" stroke-width="2"/>
+   <path d="m77.299999,76.916672q16.7,-42.800002 33.4,0" fill="none" id="svg_104" stroke="#cc0000" stroke-width="2"/>
+   <!-- Flow direction -->
+   <polygon fill="#0066cc" id="svg_105" points="43.89999771118164,41.250003814697266 66.16666412353516,41.250003814697266 55.03333282470703,26.983335494995117 "/>
+   <polygon fill="#0066cc" id="svg_106" points="121.83333587646484,41.250003814697266 144.10000610351562,41.250003814697266 132.96666717529297,26.983335494995117 "/>
+   <!-- Turbulence indicator -->
+   <path d="m93.999999,19.850003c5.566667,7.133334 11.133333,-7.133334 16.7,0c5.566667,7.133334 11.133333,-7.133334 16.7,0" fill="none" id="svg_107" stroke="#cc0000" stroke-dasharray="2,1"/>
+   <path d="m93.999999,62.650005c5.566667,-7.133334 11.133333,7.133334 16.7,0c5.566667,-7.133334 11.133333,7.133334 16.7,0" fill="none" id="svg_108" stroke="#cc0000" stroke-dasharray="2,1"/>
+   <!-- Label -->
+   <text font-family="Arial" font-size="10" id="svg_109" text-anchor="middle" transform="matrix(1.11333 0 0 1.42667 -14.55 0.233335)" x="97.5" y="88.75">Stenotic Valve Flow</text>
+  </g>
+  <line id="svg_110" stroke="#0066cc" stroke-dasharray="5,3" transform="matrix(1 0 0 1 0 0) rotate(5.38931 214 365)" x1="239" x2="189" y1="480" y2="250"/>
+  <line id="svg_111" stroke="#cc0000" stroke-dasharray="5,3" x1="510" x2="380" y1="480" y2="330"/>
+  <line id="svg_112" stroke="#009900" stroke-dasharray="5,3" x1="240" x2="600" y1="585" y2="320"/>
+  <line id="svg_113" stroke="#990099" stroke-dasharray="5,3" x1="510" x2="400" y1="585" y2="440"/>
+ </g>
+</svg>
