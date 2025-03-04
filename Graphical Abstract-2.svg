@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<svg width="1000" height="950" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Background -->
+ <defs>
+  <filter id="svg_146_blur">
+   <feGaussianBlur in="SourceGraphic" stdDeviation="0.2"/>
+  </filter>
+ </defs>
+ <!-- Title -->
+ <!-- Research Process: Top Section -->
+ <!-- Process Flow Diagram -->
+ <!-- Stage 1: Input Data -->
+ <!-- Stage 2: Preprocessing -->
+ <!-- Stage 3: Feature Selection -->
+ <!-- Stage 4: Modeling -->
+ <!-- Flow Arrows for Process Flow -->
+ <!-- Mathematical Framework Section -->
+ <!-- Mathematical Evolution 1: Cox PH to Fractional Polynomial -->
+ <!-- Input -->
+ <!-- Novel Addition -->
+ <!-- Output -->
+ <!-- Flow Arrows -->
+ <!-- Mathematical Evolution 2: Black-box to Interpretable -->
+ <!-- Input -->
+ <!-- Novel Addition -->
+ <!-- Output -->
+ <!-- Flow Arrows -->
+ <!-- Mathematical Evolution 3: Static to Dynamic Risk -->
+ <!-- Input -->
+ <!-- Novel Addition -->
+ <!-- Output -->
+ <!-- Flow Arrows -->
+ <!-- Results Section -->
+ <!-- Kaplan-Meier Curve -->
+ <!-- KM Curve -->
+ <!-- Variable Importance Plot -->
+ <!-- Variable Bars -->
+ <!-- SurvSHAP(t) Plot -->
+ <!-- SurvSHAP Curves -->
+ <!-- Fractional Polynomial Model -->
+ <!-- FP Results table -->
+ <!-- Performance Metrics Section -->
+ <!-- Key Metrics -->
+ <!-- Variable Abbreviations -->
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#f8f9fa" height="994.999987" id="svg_1" rx="8" ry="8" transform="matrix(1 0 0 1 0 0)" width="1000" x="2" y="2"/>
+  <text fill="#333" font-family="Arial" font-size="24" font-weight="bold" id="svg_2" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="501" y="35">Long-term Heart Risk Prediction by Survival Analysis in Echocardiography</text>
+  <text fill="#555" font-family="Arial" font-size="16" font-style="italic" id="svg_3" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="501" y="65">Leveraging Machine Learning, Interpretability Techniques, and Advanced Statistical Modelling</text>
+  <rect fill="#f5f5f5" height="25" id="svg_4" rx="8" ry="8" stroke="#333" stroke-width="1.5" width="900" x="51" y="85"/>
+  <text fill="#333" font-family="Arial" font-size="16" font-weight="bold" id="svg_5" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="501" y="102">Research Process</text>
+  <rect fill="#e1f5fe" height="95" id="svg_6" rx="8" ry="8" stroke="#0288d1" stroke-width="2" width="200" x="51" y="120"/>
+  <text fill="#0288d1" font-family="Arial" font-size="14" font-weight="bold" id="svg_7" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="151" y="140">Input Data</text>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_8" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="151" y="160">Echocardiographic Dataset</text>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_9" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="151" y="175">(n = 100,000, 17 variables)</text>
+  <text fill="#555" font-family="Arial" font-size="11" id="svg_10" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="151" y="190">Age, WMI, FS, PE, WMS, etc.</text>
+  <text fill="#777" font-family="Arial" font-size="10" id="svg_11" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="151" y="205">Expanded from original 132 samples</text>
+  <rect fill="#e8f5e9" height="95" id="svg_12" rx="8" ry="8" stroke="#388e3c" stroke-width="2" width="180" x="281" y="120"/>
+  <text fill="#388e3c" font-family="Arial" font-size="14" font-weight="bold" id="svg_13" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="371" y="140">Preprocessing</text>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_14" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="371" y="160">Handle Missing Values</text>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_15" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="371" y="175">Remove Outliers</text>
+  <text fill="#333" font-family="Arial" font-size="11" id="svg_16" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="371" y="190">Normalize Features</text>
+  <text fill="#777" font-family="Arial" font-size="10" id="svg_17" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="371" y="205">Mean/median imputation</text>
+  <rect fill="#fff3e0" height="95" id="svg_18" rx="8" ry="8" stroke="#f57c00" stroke-width="2" width="180" x="491" y="120"/>
+  <text fill="#f57c00" font-family="Arial" font-size="14" font-weight="bold" id="svg_19" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="581" y="140">Feature Selection</text>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_20" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="581" y="160">SurvSHAP(t)</text>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_21" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="581" y="175">Variable Importance</text>
+  <text fill="#333" font-family="Arial" font-size="11" id="svg_22" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="581" y="190">VIMP: WMI (20), Age (10)</text>
+  <text fill="#777" font-family="Arial" font-size="10" id="svg_23" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="581" y="205">PE showed minimal influence</text>
+  <rect fill="#f3e5f5" height="95" id="svg_24" rx="8" ry="8" stroke="#7b1fa2" stroke-width="2" width="250" x="701" y="120"/>
+  <text fill="#7b1fa2" font-family="Arial" font-size="14" font-weight="bold" id="svg_25" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="826" y="140">Advanced Modeling</text>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_26" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="826" y="160">Random Survival Forest (300 trees)</text>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_27" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="826" y="175">Fractional Polynomial Modelling</text>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_28" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="826" y="190">Bayesian Survival Analysis</text>
+  <text fill="#777" font-family="Arial" font-size="10" id="svg_29" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="826" y="205">DeepHitSingle for neural approach</text>
+  <path d="m251,165l30,0" fill="none" id="svg_30" stroke="#666" stroke-width="2"/>
+  <polygon fill="#666" id="svg_31" points="276,160 281,165 276,170 "/>
+  <path d="m461,165l30,0" fill="none" id="svg_32" stroke="#666" stroke-width="2"/>
+  <polygon fill="#666" id="svg_33" points="486,160 491,165 486,170 "/>
+  <path d="m671,165l30,0" fill="none" id="svg_34" stroke="#666" stroke-width="2"/>
+  <polygon fill="#666" id="svg_35" points="696,160 701,165 696,170 "/>
+  <rect fill="#f5f5f5" height="25" id="svg_36" rx="8" ry="8" stroke="#333" stroke-width="1.5" width="900" x="51" y="235"/>
+  <text fill="#333" font-family="Arial" font-size="16" font-weight="bold" id="svg_37" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="501" y="252">Mathematical Framework Evolution (Addressing Research Gaps)</text>
+  <rect fill="#e1f5fe" height="125" id="svg_38" rx="8" ry="8" stroke="#0288d1" stroke-width="2" width="900" x="51" y="270"/>
+  <text fill="#0288d1" font-family="Arial" font-size="16" font-weight="bold" id="svg_39" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="501" y="290">1. From Linear to Non-linear Hazard Modeling</text>
+  <rect fill="#ffffff" height="75" id="svg_40" rx="5" ry="5" stroke="#0288d1" width="260" x="71" y="305"/>
+  <text fill="#0288d1" font-family="Arial" font-size="14" font-weight="bold" id="svg_41" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="201" y="325">Traditional Input (Cox PH)</text>
+  <text fill="#333" font-family="Arial" font-size="14" font-style="italic" id="svg_42" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="201" y="350">h(t|X) = h0(t) · exp(β^T X)</text>
+  <text fill="#666" font-family="Arial" font-size="11" id="svg_43" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="201" y="368">Assumes linear, proportional hazards</text>
+  <rect fill="#ffffff" height="75" id="svg_44" rx="5" ry="5" stroke="#0288d1" width="260" x="371" y="305"/>
+  <text fill="#0288d1" font-family="Arial" font-size="14" font-weight="bold" id="svg_45" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="501" y="325">Novel Addition (FP)</text>
+  <text fill="#333" font-family="Arial" font-size="14" font-style="italic" id="svg_46" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="501" y="350">X·β = sum(m=1 to M) βm X^pm</text>
+  <text fill="#666" font-family="Arial" font-size="11" id="svg_47" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="501" y="368">Optimally chosen exponents pm</text>
+  <rect fill="#ffffff" height="75" id="svg_48" rx="5" ry="5" stroke="#0288d1" width="260" x="671" y="305"/>
+  <text fill="#0288d1" font-family="Arial" font-size="14" font-weight="bold" id="svg_49" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="801" y="325">Resulting Output</text>
+  <text fill="#333" font-family="Arial" font-size="14" font-style="italic" id="svg_50" text-anchor="middle" transform="matrix(1 0 0 1 0 0) matrix(0.743369 0 0 0.721127 172.649 92.1263)" x="846.61891" y="352.940141">h_FPM(t|X) = h0(t) · exp(sum(m=1 to M) βm X^pm)</text>
+  <text fill="#666" font-family="Arial" font-size="11" id="svg_51" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="801" y="368">Non-linear modeling of survival relationships</text>
+  <path d="m331,340l40,0" fill="none" id="svg_52" stroke="#0288d1" stroke-width="2"/>
+  <polygon fill="#0288d1" id="svg_53" points="366,335 371,340 366,345 "/>
+  <path d="m631,340l40,0" fill="none" id="svg_54" stroke="#0288d1" stroke-width="2"/>
+  <polygon fill="#0288d1" id="svg_55" points="666,335 671,340 666,345 "/>
+  <rect fill="#e8f5e9" height="125" id="svg_56" rx="8" ry="8" stroke="#388e3c" stroke-width="2" width="900" x="51" y="405"/>
+  <text fill="#388e3c" font-family="Arial" font-size="16" font-weight="bold" id="svg_57" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="501" y="425">2. From Black-box Prediction to Interpretable Models</text>
+  <rect fill="#ffffff" height="75" id="svg_58" rx="5" ry="5" stroke="#388e3c" width="260" x="71" y="440"/>
+  <text fill="#388e3c" font-family="Arial" font-size="14" font-weight="bold" id="svg_59" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="201" y="460">Black-box Model</text>
+  <text fill="#333" font-family="Arial" font-size="14" font-style="italic" id="svg_60" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="201" y="485">S(t|X) = f(X; θ)</text>
+  <text fill="#666" font-family="Arial" font-size="11" id="svg_61" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="201" y="503">Provides predictions without explanations</text>
+  <rect fill="#ffffff" height="75" id="svg_62" rx="5" ry="5" stroke="#388e3c" width="260" x="371" y="440"/>
+  <text fill="#388e3c" font-family="Arial" font-size="14" font-weight="bold" id="svg_63" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="501" y="460">Novel Addition (SurvSHAP(t))</text>
+  <text fill="#333" font-family="Arial" font-size="14" font-style="italic" id="svg_64" text-anchor="middle" transform="matrix(0.882503 0 0 0.747674 44.4079 119.147)" x="516.863976" y="483.662519">φj(t) = E[S(t|X) | Xj=xj] - E[S(t|X) | Xj=xj&#x27;]</text>
+  <text fill="#666" font-family="Arial" font-size="11" id="svg_65" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="501" y="503">Marginal contributions of features</text>
+  <rect fill="#ffffff" height="75" id="svg_66" rx="5" ry="5" stroke="#388e3c" width="260" x="671" y="440"/>
+  <text fill="#388e3c" font-family="Arial" font-size="14" font-weight="bold" id="svg_67" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="801" y="460">Interpretable Output</text>
+  <text fill="#333" font-family="Arial" font-size="14" font-style="italic" id="svg_68" text-anchor="middle" transform="matrix(1 0 0 1 0 0) matrix(0.864824 0 0 0.806985 126.276 91.3823)" x="785.968047" y="486">φj(t) = (1/N) sum(i=1 to N) (S(t|Xi) - S(t|Xi&#x27;))</text>
+  <text fill="#666" font-family="Arial" font-size="11" id="svg_69" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="801" y="503">Time-dependent feature importance</text>
+  <path d="m331,475l40,0" fill="none" id="svg_70" stroke="#388e3c" stroke-width="2"/>
+  <polygon fill="#388e3c" id="svg_71" points="366,470 371,475 366,480 "/>
+  <path d="m631,475l40,0" fill="none" id="svg_72" stroke="#388e3c" stroke-width="2"/>
+  <polygon fill="#388e3c" id="svg_73" points="666,470 671,475 666,480 "/>
+  <rect fill="#fff3e0" height="125" id="svg_74" rx="8" ry="8" stroke="#f57c00" stroke-width="2" width="900" x="51" y="540"/>
+  <text fill="#f57c00" font-family="Arial" font-size="16" font-weight="bold" id="svg_75" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="501" y="560">3. From Static to Dynamic Risk Evolution</text>
+  <rect fill="#ffffff" height="75" id="svg_76" rx="5" ry="5" stroke="#f57c00" width="260" x="71" y="575"/>
+  <text fill="#f57c00" font-family="Arial" font-size="14" font-weight="bold" id="svg_77" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="201" y="595">Constant Hazard Ratios</text>
+  <text fill="#333" font-family="Arial" font-size="14" font-style="italic" id="svg_78" text-anchor="middle" transform="matrix(0.959376 0 0 0.745981 5.58421 154.24)" x="199" y="620">HR(X) = exp(β^T X)</text>
+  <text fill="#666" font-family="Arial" font-size="11" id="svg_79" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="201" y="638">Assumes time-invariant effects</text>
+  <rect fill="#ffffff" height="75" id="svg_80" rx="5" ry="5" stroke="#f57c00" width="260" x="371" y="575"/>
+  <text fill="#f57c00" font-family="Arial" font-size="14" font-weight="bold" id="svg_81" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="501" y="595">Novel Addition (RSF)</text>
+  <text fill="#333" font-family="Arial" font-size="14" font-style="italic" id="svg_82" text-anchor="middle" transform="matrix(0.986913 0 0 0.872543 5.05669 77.3991)" x="501" y="620">S_RSF(t|X) = product(ti &lt; t) (1 - di/ni)</text>
+  <text fill="#666" font-family="Arial" font-size="11" id="svg_83" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="501" y="638">Tree-based partitioning of survival data</text>
+  <rect fill="#ffffff" height="75" id="svg_84" rx="5" ry="5" stroke="#f57c00" width="260" x="671" y="575"/>
+  <text fill="#f57c00" font-family="Arial" font-size="14" font-weight="bold" id="svg_85" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="801" y="595">Dynamic Risk Profile</text>
+  <text fill="#333" font-family="Arial" font-size="14" font-style="italic" id="svg_86" text-anchor="middle" transform="matrix(0.936779 0 0 0.872222 58.7235 77.5988)" x="793.460096" y="620">H_RSF(t) = -log S(t) = sum(i=1 to n) di/ni</text>
+  <text fill="#666" font-family="Arial" font-size="11" id="svg_87" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="801" y="638">Time-varying hazard without PH assumption</text>
+  <path d="m331,610l40,0" fill="none" id="svg_88" stroke="#f57c00" stroke-width="2"/>
+  <polygon fill="#f57c00" id="svg_89" points="366,605 371,610 366,615 "/>
+  <path d="m631,610l40,0" fill="none" id="svg_90" stroke="#f57c00" stroke-width="2"/>
+  <polygon fill="#f57c00" id="svg_91" points="666,605 671,610 666,615 "/>
+  <rect fill="#f5f5f5" height="25" id="svg_92" rx="8" ry="8" stroke="#333" stroke-width="1.5" width="900" x="51" y="685"/>
+  <text fill="#333" font-family="Arial" font-size="16" font-weight="bold" id="svg_93" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="501" y="702">Results and Visualizations</text>
+  <rect fill="#f5f5f5" height="180" id="svg_94" rx="8" ry="8" stroke="#0288d1" stroke-width="1.5" transform="matrix(1 0 0 1 0 0)" width="215" x="52" y="720"/>
+  <text fill="#0288d1" font-family="Arial" font-size="14" font-weight="bold" id="svg_95" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="158" y="740">Kaplan-Meier Curve</text>
+  <path d="m71,840l0,-70l20,0l20,10l20,15l20,15l20,5l20,5l20,5l20,5" fill="none" id="svg_96" stroke="#0288d1" stroke-width="2"/>
+  <path d="m71,840l160,0" fill="none" id="svg_97" stroke="#666"/>
+  <path d="m71,840l0,-70" fill="none" id="svg_98" stroke="#666"/>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_99" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="151" y="857">Time (months)</text>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_100" text-anchor="end" transform="matrix(1 0 0 1 0 0) rotate(-90 35.9765 811.763)" x="87" y="816">Survival Probability</text>
+  <text fill="#333" font-family="Arial" font-size="11" id="svg_101" text-anchor="middle" transform="matrix(1 0 0 1 0 0) matrix(0.932302 0 0 0.919385 6.81617 60.9333)" x="145" y="766">75% at 10 months</text>
+  <text fill="#333" font-family="Arial" font-size="11" id="svg_102" text-anchor="middle" transform="matrix(1 0 0 1 0 0) matrix(0.898473 0 0 0.917453 19.9222 68.3017)" x="211" y="801">60% at 40 months</text>
+  <rect fill="#f5f5f5" height="180" id="svg_103" rx="8" ry="8" stroke="#388e3c" stroke-width="1.5" width="215" x="281" y="720"/>
+  <text fill="#388e3c" font-family="Arial" font-size="14" font-weight="bold" id="svg_104" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="388" y="740">Variable Importance</text>
+  <rect fill="#e8f5e9" height="20" id="svg_105" stroke="#388e3c" width="180" x="301" y="770"/>
+  <rect fill="#81c784" height="20" id="svg_106" width="180" x="301" y="770"/>
+  <text fill="#fff" font-family="Arial" font-size="12" id="svg_107" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="391" y="785">Wall Motion Index (20)</text>
+  <rect fill="#e8f5e9" height="20" id="svg_108" stroke="#388e3c" width="90" x="301" y="800"/>
+  <rect fill="#a5d6a7" height="20" id="svg_109" width="90" x="301" y="800"/>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_110" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="346" y="815">Age (10)</text>
+  <rect fill="#e8f5e9" height="20" id="svg_111" stroke="#388e3c" width="70" x="301" y="830"/>
+  <rect fill="#c8e6c9" height="20" id="svg_112" width="70" x="301" y="830"/>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_113" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="336" y="845">WMS (7)</text>
+  <rect fill="#f5f5f5" height="180" id="svg_114" rx="8" ry="8" stroke="#f57c00" stroke-width="1.5" transform="matrix(1 0 0 1 0 0)" width="215" x="511" y="720"/>
+  <text fill="#f57c00" font-family="Arial" font-size="14" font-weight="bold" id="svg_115" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="618" y="740">SurvSHAP(t) Analysis</text>
+  <path d="m531,840l175,0" fill="none" id="svg_116" stroke="#666"/>
+  <path d="m531,840l0,-70" fill="none" id="svg_117" stroke="#666"/>
+  <path d="m531,810l20,-5l20,-5l20,-5l20,-5l20,-5l20,-5l20,-5l20,-5" fill="none" id="svg_118" stroke="#0288d1" stroke-width="2"/>
+  <text fill="#0288d1" font-family="Arial" font-size="10" id="svg_119" text-anchor="start" transform="matrix(1 0 0 1 0 0)" x="700" y="764">Age</text>
+  <path d="m531,810l20,-3l20,-4l20,-5l20,-6l20,-4l20,-3l20,-3l20,-2" fill="none" id="svg_120" stroke="#388e3c" stroke-width="2"/>
+  <text fill="#388e3c" font-family="Arial" font-size="10" id="svg_121" text-anchor="start" transform="matrix(1 0 0 1 0 0)" x="700" y="781">WMI</text>
+  <path d="m531,810l20,-10l20,-5l20,-2l20,-1l20,-1l20,-1l20,-1l20,-1" fill="none" id="svg_122" stroke="#f57c00" stroke-width="2"/>
+  <text fill="#f57c00" font-family="Arial" font-size="10" id="svg_123" text-anchor="start" transform="matrix(1 0 0 1 0 0)" x="699" y="795">FS</text>
+  <path d="m531,810l20,-1l20,-1l20,-2l20,-2l20,-3l20,-4l20,-4l20,-3" fill="none" id="svg_124" stroke="#7b1fa2" stroke-width="2"/>
+  <text fill="#7b1fa2" font-family="Arial" font-size="10" id="svg_125" text-anchor="start" transform="matrix(1 0 0 1 0 0)" x="698" y="808">WMS</text>
+  <path d="m531,810l20,0l20,0l20,0l20,0l20,0l20,0l20,0l20,0" fill="none" id="svg_126" stroke="#d32f2f" stroke-width="2"/>
+  <text fill="#d32f2f" font-family="Arial" font-size="10" id="svg_127" text-anchor="start" transform="matrix(1 0 0 1 0 0)" x="698" y="821">PE</text>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_128" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="618" y="857">Time (months)</text>
+  <text fill="#333" font-family="Arial" font-size="12" id="svg_129" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="end" transform="rotate(-90 511 805)" x="521" y="805">Feature Contribution</text>
+  <rect fill="#f5f5f5" height="180" id="svg_130" rx="8" ry="8" stroke="#7b1fa2" stroke-width="1.5" width="210" x="741" y="720"/>
+  <text fill="#7b1fa2" font-family="Arial" font-size="14" font-weight="bold" id="svg_131" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="846" y="740">FP Model Results</text>
+  <rect fill="#f3e5f5" height="25" id="svg_132" stroke="#7b1fa2" width="180" x="756" y="760"/>
+  <text fill="#333" font-family="Arial" font-size="12" font-weight="bold" id="svg_133" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="846" y="777">Variable (Power)</text>
+  <rect fill="#fafafa" height="20" id="svg_134" stroke="#7b1fa2" width="180" x="756" y="785"/>
+  <text fill="#333" font-family="Arial" font-size="11" id="svg_135" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="846" y="800">Age (^0.5): 7.425, p&lt;0.001</text>
+  <rect fill="#fafafa" height="20" id="svg_136" stroke="#7b1fa2" width="180" x="756" y="805"/>
+  <text fill="#333" font-family="Arial" font-size="11" id="svg_137" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="846" y="820">WMI (^1): 1.204, p&lt;0.001</text>
+  <rect fill="#fafafa" height="20" id="svg_138" stroke="#7b1fa2" width="180" x="756" y="825"/>
+  <text fill="#333" font-family="Arial" font-size="11" id="svg_139" style="font-family: Arial, Bangla1058, sans-serif;" text-anchor="middle" x="846" y="840">Epoint (^1): 0.349, p=0.185</text>
+  <rect fill="#f3e5f5" height="20" id="svg_140" rx="8" ry="8" stroke="#7b1fa2" stroke-width="2" transform="matrix(1 0 0 1 0 0)" width="900" x="55" y="939"/>
+  <text fill="#7b1fa2" font-family="Arial" font-size="14" font-weight="bold" id="svg_141" text-anchor="middle" x="191" y="954">Key Metrics:</text>
+  <text fill="#333" font-family="Arial" font-size="14" id="svg_142" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="305" y="953">Brier Score: 0.141</text>
+  <text fill="#333" font-family="Arial" font-size="14" id="svg_143" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="476" y="952">Bayesian Convergence: R=1.00</text>
+  <text fill="#333" font-family="Arial" font-size="14" id="svg_144" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="720" y="952">Clinical Impact: 85% Reduced Surgeries</text>
+  <text fill="#333" font-family="Arial" font-size="14" id="svg_145" text-anchor="middle" transform="matrix(1 0 0 1 0 0) matrix(0.791556 0 0 0.935801 156.304 57.9913)" x="873.843338" y="913.862794">Healthcare Costs: 60-70% Reduction</text>
+  <text fill="#666" filter="url(#svg_146_blur)" font-family="Arial" font-size="10" font-style="normal" font-weight="normal" id="svg_146" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1 0 0 1 0 0) matrix(1.0875 0 0 1.36276 -12.3996 -349)" x="479.448263" y="973.20142">WMI: Wall Motion Index, FS: Fractional Shortening, PE: Pericardial Effusion, WMS: Wall Motion Score, FP: Fractional Polynomial, RSF: Random Survival Forest</text>
+ </g>
+</svg>
